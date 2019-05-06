@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{21C2D141-8059-E3B5-BF6E-E8E63DFE24D7}</ProjectGuid>
+    <ProjectGuid>{2863BBDA-082E-33E0-7756-388C614F0C55}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,30 +53,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Resources\NewBehaviourScript.cs" />
+     <Compile Include="Assets\UNet Chat\Content\Scripts\Core\Networking\bl_ChatManager.cs" />
+     <Compile Include="Assets\UNet Chat\Content\Scripts\Core\Networking\NewBehaviourScript.cs" />
+     <Compile Include="Assets\UNet Chat\Content\Scripts\Core\UI\bl_ChatLine.cs" />
+     <Compile Include="Assets\UNet Chat\Content\Scripts\Core\UI\bl_ChatUI.cs" />
+     <Compile Include="Assets\UNet Chat\Content\Scripts\Internal\Structure\bl_GroupInfo.cs" />
+     <Compile Include="Assets\UNet Chat\Content\Scripts\Internal\Structure\bl_MsnChatInfo.cs" />
+     <Compile Include="Assets\UNet Chat\Content\Scripts\Internal\Utils\bl_ChatUtils.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
+     <None Include="Assets\MyAssets\Charmander\Pokemon XY\Charmander\Tag.txt" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\UNet Chat\ReadMe.txt" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
      <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
+     <None Include="Assets\MyAssets\Charizard\Pokemon XY\Charizard\Tag.txt" />
      <None Include="Assets\StreamingAssets\Vuforia\ARDemo.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
+     <None Include="Assets\MyAssets\Chareleon\Pokemon XY\Charmeleon\Tag.txt" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>D:/shaishav/GoogleDrive/CSE591 AW/Project/First_AR_APP_Tutorial/First_AR_APP_Tutorial/SampleProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>D:/shaishav/GoogleDrive/CSE591 AW/AW Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/shaishav/GoogleDrive/CSE591 AW/Project/First_AR_APP_Tutorial/First_AR_APP_Tutorial/SampleProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/shaishav/GoogleDrive/CSE591 AW/AW Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/shaishav/GoogleDrive/CSE591 AW/Project/First_AR_APP_Tutorial/First_AR_APP_Tutorial/SampleProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>D:/shaishav/GoogleDrive/CSE591 AW/AW Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/shaishav/GoogleDrive/CSE591 AW/Project/First_AR_APP_Tutorial/First_AR_APP_Tutorial/SampleProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/shaishav/GoogleDrive/CSE591 AW/AW Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/OS/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -312,9 +322,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VuforiaScripts.csproj">
-      <Project>{EA2B3762-A938-75DD-D5EB-9F4611B2C567}</Project>      <Name>VuforiaScripts</Name>    </ProjectReference>
+      <Project>{78A5BA89-8D1D-3F11-0C15-C459C29A306E}</Project>      <Name>VuforiaScripts</Name>    </ProjectReference>
     <ProjectReference Include="VuforiaEditorScripts.csproj">
-      <Project>{E38991A4-2522-83F7-1E97-8367FBFC4391}</Project>      <Name>VuforiaEditorScripts</Name>    </ProjectReference>
+      <Project>{96C3F14C-C6C2-C350-EE7D-35D42BC57DBD}</Project>      <Name>VuforiaEditorScripts</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EA2B3762-A938-75DD-D5EB-9F4611B2C567}</ProjectGuid>
+    <ProjectGuid>{78A5BA89-8D1D-3F11-0C15-C459C29A306E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VuforiaScripts</AssemblyName>
@@ -53,9 +53,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Vuforia\Scripts\dashboard_new.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\feedback_script.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\InheritanceText.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\login_new.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\persistent_data_script.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\QuizScripts\AnswerButton.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\QuizScripts\AnswerData.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\QuizScripts\DataController.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\QuizScripts\GameController.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\QuizScripts\QuestionData.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\QuizScripts\RoundData.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\QuizScripts\SimpleObjectPool.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\RenderGameObject.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\SaveLoad.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\stats.cs" />
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/OS/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
